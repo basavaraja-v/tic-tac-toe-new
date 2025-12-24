@@ -32,7 +32,7 @@ const handler = createMcpHandler(async (server) => {
   const html = await getAppsSdkCompatibleHtml(baseURL, "/");
 
   const contentWidget: ContentWidget = {
-    id: "show_content",
+    id: "tic_tac_toe_content",
     title: "Show Content",
     templateUri: "ui://widget/content-template.html",
     invoking: "Loading content...",
